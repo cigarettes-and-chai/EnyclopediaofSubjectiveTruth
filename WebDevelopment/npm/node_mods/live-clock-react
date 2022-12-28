@@ -1,0 +1,34 @@
+***Web Development***
+****NodeJS Module Documentation**********
+
+Official Name:
+react-live-clock
+
+Installation:
+npm i react-live-clock
+
+Repository:
+github.com/pvoznyuk/react-live-clock --Contains followinn props
+
+Properties
+Property    	Type 	        Default Value 	Description
+date     timestamp or string 	current date   Date to output, If nothing is set then it take current date.
+format 	   string 	               'HH:MM' 	   Formatting from moment.js library.
+locale 	   string 	               null 	   Changes the language of the component via prop
+filter 	   function    (date: String) => date  Filtering the value before the output .
+timezone    string 	               null 	   If timezone is set, the date is show in this timezone. You can find the list. here, the TZ column.
+ticking    	boolean                	false 	   If you want the clock to be auto-updated every interval seconds.
+blinking    boolean,                string 	   false 	If you want the clock's last colon to blink. Set it to all to make them all blink.
+noSsr 	    boolean                	false 	   Makes the component not render on the server to fix mismatch.
+interval 	integer                	1000 	   Auto-updating period for the clock. 1 second is a default value.
+className 	string 	               null 	   Extra class.
+children 	string 	               null 	   date can be set as a children prop.
+onChange 	function                    	   ({output, previousOutput, moment}) => {} 	callback function on each output update
+
+To reiteriate. Requires Node.js
+Example
+      <main className={styles.main}>
+        <Clock className={styles.clock}>
+          format={'h:mm:ssa'}
+          ticking={true} </Clock>
+      </main>

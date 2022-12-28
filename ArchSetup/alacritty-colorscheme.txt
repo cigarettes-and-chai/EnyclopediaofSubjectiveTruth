@@ -1,0 +1,18 @@
+***Arch Setup***
+****Alacritty**********
+
+
+Alacritty is a gpu accelerated terminal for running bash
+
+Arch Wiki: https://wiki.archlinux.org/title/Alacritty
+
+Github: https://github.com/alacritty/alacritty
+Themes_Github: https://github.com/toggle-corp/alacritty-colorscheme/blob/master/README.md
+
+Changing themes: alacritty-colorscheme -V apply <theme-name>.yaml
+                    *this works with themes in ~/.config/alacritty/colors
+
+Toggles: See Themes_Github for advice on toggling between themes
+
+Required Writings:
+

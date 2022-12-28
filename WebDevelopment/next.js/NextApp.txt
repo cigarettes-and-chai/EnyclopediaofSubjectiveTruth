@@ -1,0 +1,18 @@
+***Web Development***
+****NextJS**********
+
+
+
+So it begins...my journey into Web Development.
+Reuired Writings: 
+
+
+To reiteriate. Requires Node.js
+
+To create Test App Use this command
+*npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
+To Run App
+*npm run dev
+Will be available at http://localhost:3000/
+
+For Packages... transfer from <home>/node_modules to <app>/node_modules
